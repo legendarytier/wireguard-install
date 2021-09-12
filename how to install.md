@@ -1,6 +1,7 @@
 _I have tested this code on Ubuntu 20.04
 
 _Run this command
+sudo su
 
 wget https://git.io/JuiKe -O wireguard-install.sh && bash wireguard-install.sh
 
@@ -23,3 +24,10 @@ Endpoint = x.x.x.xx:51820
 PersistentKeepalive = 25
 
 _Copy them all and paste to the client
+
+_If you want to create more client just run the command again
+
+
+wget https://git.io/JuiKe -O wireguard-install.sh && bash wireguard-install.sh
+
+_the system will understand the script installed aready and let you create new client
